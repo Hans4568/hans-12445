@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scs">
+    <link rel="stylesheet" href="Stile.css.txt">
+    <title>Pepito</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="card">
+            <div class="image-container">
+                <img class="image" id="image" src="descarga.png"></img>
+            </div>
+            <div class="controls-container">
+                <button id="play">play</button>
+                <button id="pause">pause</button>
+                <button id="stop">stop</button>
+            </div>
+        </div>
+
+    </div>
+    <audio id="audio" src="Ingratax - Paris (Official Video)_128k.mp3"></audio>
+    <script src="Scrip.txt"></script>
+</body>
+</html>

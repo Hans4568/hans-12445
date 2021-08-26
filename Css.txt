@@ -1,0 +1,13 @@
+const titulo = document.getElementById("title")
+const play_btn = document.getElementById("play")
+const audio = document.getElementById("audio")
+const pause_bnt = document.getElementById("pause")
+
+play_btn.addEventListener("click",()=>{
+    audio.play();
+    image.style.animatioPlayState = "running"
+})
+pause_bnt.addEventListener("click",()=>{
+    audio.pause();
+    image.style.animatioPlayState = "pause"
+})
